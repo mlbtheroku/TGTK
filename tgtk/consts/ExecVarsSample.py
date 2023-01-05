@@ -6,17 +6,17 @@ except:
         # Set true if its VPS (most likely not.)
         IS_VPS = False
         
-        API_HASH = os.environ.get("API_HASH")
-        API_ID = int(os.environ.get("APP_ID", 12345))
-        BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+        API_HASH = os.environ.get("API_HASH", "2c015c994c57b312708fecc8a2a0f1a6")
+        API_ID = int(os.environ.get("APP_ID", 15830858))
+        BOT_TOKEN = os.environ.get("BOT_TOKEN", "5833550185:AAFzUdwF-uiFxIVwzrVS7VepS5GH9tfv0Bk")
         BASE_URL_OF_BOT = os.environ.get("BASE_URL_OF_BOT", "")
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "").split())
-        OWNER_ID = os.environ.get("OWNER_ID", "")
+        ALD_USR = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "-1001664467617 -1001750717073").split())
+        OWNER_ID = os.environ.get("OWNER_ID", "1349301822")
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = os.environ.get("GD_INDEX_URL", "False")
