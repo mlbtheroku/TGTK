@@ -15,7 +15,7 @@ except:
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "-1001664467617 -1001750717073").split())
+        ALD_USR = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "-1001664467617 -1001750717073 5468192421 5559979635 5504969603 1349301822 5623031120").split())
         OWNER_ID = os.environ.get("OWNER_ID", "1349301822")
         
         # Google Drive Index Link should include the base dir also See readme for more info
