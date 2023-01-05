@@ -37,7 +37,7 @@ except:
         REMAINING_STR = os.environ.get("REMAINING_STR", "▒")
 
         # DB URI for access
-        DB_URI = os.environ.get("DATABASE_URL", "postgres://sivwjkao:Kh4bCK7rCKkJ49aGdguvb6Buf8RuD3BE@floppy.db.elephantsql.com/sivwjkao")
+        DB_URI = os.environ.get("DATABASE_URL", "postgres://yukjcgin:NcbdNkUa32FRsdJYjWbxroFcMVRGKHuG@arjuna.db.elephantsql.com/yukjcgin")
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
